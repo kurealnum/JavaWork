@@ -1,2 +1,2 @@
 # JavaWork
-Just some Java work. Pretty Basic
+Just some Java work. Pretty basic
