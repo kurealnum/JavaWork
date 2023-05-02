@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=newLibraryName
+comment1.target=Library(java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ returnLibrary()
+comment3.params=bookName
+comment3.target=void\ addBook(java.lang.String)
+comment4.params=bookName
+comment4.target=void\ removeBook(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ returnName()
+numComments=6
