@@ -2,10 +2,23 @@ package basics;
 
 public class allKindsOfMethods {
     public static void main(String[] args) {
+
+		// toString() = special method that all objects inherit, 
+		//    that returns a string that "textually represents" an object.
+		//    can be used both implicitly and explicitly
+		
+		Car car = new Car();
+		
+		
+		System.out.println(car.toString());
+		
+		// or
+		
+		System.out.println(car);
   
         // method = a block of code that is executed whenever it is called upon
-        
-        int x = 3;
+        //you can't change a variable that has "final" in front of it
+        final int x = 3;
         int y = 4;
         
         int z = add(x,y);
@@ -31,6 +44,7 @@ public class allKindsOfMethods {
 		double myDouble = 1000;
 			
 		// [conversion-character]
+		//printf is VERY similar to C's printf
 		System.out.printf("%b",myBoolean);
 		System.out.printf("%c",myChar);
 		System.out.printf("%s",myString);
@@ -39,11 +53,11 @@ public class allKindsOfMethods {
 		
 		//[width]
 		// minimum number of characters to be written as output
-		//System.out.printf("Hello %10s",myString);
+		System.out.printf("Hello %10s",myString);
 		
 		//[precision]
 		// sets number of digits of precision when outputting floating-point values
-		//System.out.printf("You have this much money %.1f",myDouble);
+		System.out.printf("You have this much money %.1f",myDouble);
 		
 		// [flags]
 		// adds an effect to output based on the flag added to format specifier
@@ -52,7 +66,7 @@ public class allKindsOfMethods {
 		// 0 : numeric values are zero-padded
 		// , : comma grouping separator if numbers > 1000
 		
-		//System.out.printf("You have this much money %,f",myDouble);
+		System.out.printf("You have this much money %,f",myDouble);
 
 		
        }
