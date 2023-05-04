@@ -37,5 +37,8 @@ public class mathOperatorsAndNums {
         
         //if you want the number to be between 1 and 6, and not 0 and 5, just increment it
         y++;
+        
+        System.out.println(x);
+        System.out.println(y);
     }
 }
