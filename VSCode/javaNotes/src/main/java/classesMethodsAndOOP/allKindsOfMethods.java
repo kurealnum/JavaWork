@@ -1,4 +1,4 @@
-package basics;
+package classesMethodsAndOOP;
 
 public class allKindsOfMethods {
     public static void main(String[] args) {
