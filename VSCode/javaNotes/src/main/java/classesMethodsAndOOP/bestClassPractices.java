@@ -19,6 +19,14 @@ package classesMethodsAndOOP;
 // abstract =  	abstract classes cannot be instantiated, but they can have a subclass
 //				abstract methods are declared without an implementation
 
+// public: visible in all classes in all packages
+// protected: visible to all classes in the same package or classes in other packages that are a subclass
+// default: visible to all classes in the same package 
+// private: visible only in the same class
+
+// interface =  a template that can be applied to a class
+//				similar to inheritance, buit specifies what a class has/must do.
+//				classes can apply more than one interface, inheritance is limited to 1 super
 
 public class bestClassPractices {
 
