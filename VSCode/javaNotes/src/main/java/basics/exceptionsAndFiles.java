@@ -9,6 +9,34 @@ public class exceptionsAndFiles {
 		
 		// exception = 	an event that occurs during the execution of a program that,
 		//				disrupts the normal flow of instructions
+
+		// user defined excpetions = custom exceptions
+
+		Scanner scan = new Scanner(System.in);
+			 System.out.print("Enter your age: ");
+			 int age = scan.nextInt();
+	 	 
+		      try{  
+		    	  checkAge(age);  
+		      }
+		      catch(Exception e)
+		      {
+		    	  System.out.println("A problem occured: "+e);
+		      }   
+
+			  scan.close();
+		}  
+		 
+		static void checkAge(int age)throws AgeException{ 
+			 
+			     if(age<18) {
+			    	 throw new AgeException("\n"+"You must be 18+ to sign up");  
+			     }
+			     else {
+			    	 System.out.println("You are now signed up!"); 
+			     }    
+			
+		//general exceptions
 		
 		Scanner scanner = new Scanner(System.in);
 		
