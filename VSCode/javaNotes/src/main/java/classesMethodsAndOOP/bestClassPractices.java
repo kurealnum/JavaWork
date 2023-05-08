@@ -1,10 +1,10 @@
 package classesMethodsAndOOP;
 
-//IF YOU WANT TO PASS IN OBJECTS, MAKE SURE THE PARAMETER IS THE TYPE OF OBJECT YOU'RE PASSING IN
+// IF YOU WANT TO PASS IN OBJECTS, MAKE SURE THE PARAMETER IS THE TYPE OF OBJECT YOU'RE PASSING IN
 // static = modifier. A single copy of a variable/method is created and shared.
 //			The class "owns" the static member
 
-//You can use the "extends" keyword on classes for inheritance like:
+// You can use the "extends" keyword on classes for inheritance like:
 // public class myClass extends awesomeClass {
 
 // method overriding = 	Declaring a method in sub class,
@@ -27,6 +27,11 @@ package classesMethodsAndOOP;
 // interface =  a template that can be applied to a class
 //				similar to inheritance, buit specifies what a class has/must do.
 //				classes can apply more than one interface, inheritance is limited to 1 super
+
+// dynamic polymorphism =  declare an object and make space for it in memory even if you dont know what type of object you want yet
+// 						   ex: Car car; instead of Car car = new Car(); 
+
+// It's good practice to add @Override to any overridden functions
 
 public class bestClassPractices {
 

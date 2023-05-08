@@ -27,6 +27,17 @@ public class allKindsOfMethods {
 
         // overloaded methods = methods that share the same name but have different parameters
 		//						method name + parameters = method signature
+
+		// method chaining =  a common syntax for invoking multiple method calls in OOP
+		//      condense code into less lines
+		
+		String name = "      bro";
+		
+		//name = name.concat(" code   ");
+		//name = name.toUpperCase();
+		//name = name.trim();
+		
+		name = name.concat("code").toUpperCase().trim();
 		
 		//this will call overloaded method #6
 		double x2 = add(1.0,2.0,3.0,4.0);
