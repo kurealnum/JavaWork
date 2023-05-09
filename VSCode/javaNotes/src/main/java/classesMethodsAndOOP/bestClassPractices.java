@@ -31,6 +31,27 @@ package classesMethodsAndOOP;
 // dynamic polymorphism =  declare an object and make space for it in memory even if you dont know what type of object you want yet
 // 						   ex: Car car; instead of Car car = new Car(); 
 
+/* inner class =  A class inside of another class.
+    useful if a class should be limited in scope.
+    usually private, but not necessary
+    helps group classes that belong together
+    extremely useful for listeners for specific events
+    precursor for anonymous inner classes   
+*/
+
+ /*anonymous class = an inner class without a name
+    only a single object is created from one
+    The object may have “extras” or "changes"
+    and no need to create a separate innerclass
+    when it only need it once.
+    Helps us to avoid cluttering code with a class name
+
+    Syntax is similar to a constructor,
+     except that there is also a class definition
+     within a block of code.  
+     GREAT FOR LISTENERS
+*/
+
 // It's good practice to add @Override to any overridden functions
 
 public class bestClassPractices {
