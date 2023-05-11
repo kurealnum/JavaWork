@@ -1,6 +1,6 @@
 package threading;
 
-public class MyRunnable extends Runnable{
+public class MyRunnable implements Runnable{
     @Override
 	public void run() {
 		
